@@ -1,0 +1,140 @@
+body{
+  font-family: Georgia;
+  font-size: 13px;
+  color: #222222;
+}
+
+.topNavigationSection{
+  vertical-align: middle;
+  background-color: #3355aa;
+  font-size: 15px;
+  height: 40px;
+}
+
+#topNavigation{
+  vertical-align: middle;
+  background-color: #3355aa;
+  height: 40px;
+}
+
+#topNavigationSearchBar{
+  vertical-align: middle;
+  height: 30px;
+  margin: 5px;
+  color: #3355aa;
+  font-style: italic;
+}
+
+#topNavigationSearchBtn{
+  vertical-align: middle;
+  background-color: #4266c8;
+  height: 30px;
+  margin: 5px;
+  padding-top:2px;
+}
+
+#navlinks{
+  font-style: italic;
+  color: #fff;
+}
+
+#articleSection{
+  margin-top: 35px;
+  margin-bottom: 45px
+}
+
+.headerSection{
+  vertical-align: middle;
+  color: #3355aa;
+  height: 80px;
+}
+
+.headerLogo{
+  margin: 5px;
+}
+
+.bannerImage{
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.bannerText{
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#bannerSection{
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.articleHeading{
+  font-size:16px;
+  color: #3355aa;
+  font-weight: bold;
+}
+
+
+.articleSeperator{
+  height: 3px;
+  background-color: #eebd00;
+}
+
+.articleContent{
+  font-style: italic;
+
+}
+
+.articleAuthor{
+  font-size: 10px;
+  color: #9e9e9e;
+}
+
+.authorName{
+  color: #000;
+}
+
+#viewMore{
+  font-style: italic;
+}
+
+.sectorHeader{
+  text-align: center;
+  font-size: 28px;
+  margin:25px 0px 25px 0px;
+  font-weight: bold;
+}
+
+.sectorSubHeader{
+  font-size: 16px;
+  text-align: center;
+}
+
+.sectorCard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+
+.blankBlock{
+  background-color:#C0C0C0;
+  height:250px;
+  margin:5px;
+}
+
+footer{
+  background-color: #363636;
+  color: #fff;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+
+#footerNavFirst{
+  font-size: 16px;
+  color: #fff;
+}
+
+
+#footerNavSecond{
+  font-size: 13px;
+}
