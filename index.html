@@ -11,9 +11,10 @@
   </head>
   <body>
 
+<!-- Header section-->
     <header class="headerSection">
       <div class="container">
-        <div class="row">
+        <div class="row no-gutters">
           <div class="col-sm-12">
             <img class="headerLogo" src="images/logo.png">
           </div>
@@ -21,40 +22,42 @@
       </div>
     </header>
 
+<!-- Top navigation bar-->
     <div class="topNavigationSection">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <nav id="topNavigation" class="navbar navbar-expand-sm">
+            <nav class="navbar navbar-expand-sm topNavigation">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a id="navlinks" class="nav-link" href="#">Sectors we work in</a>
+                  <a class="nav-link navlinks" href="#">Sectors we work in</a>
                 </li>
                 <li class="nav-item">
-                  <a id="navlinks" class="nav-link" href="#">Services</a>
+                  <a class="nav-link navlinks" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a id="navlinks" class="nav-link" href="#">Clients</a>
+                  <a class="nav-link navlinks" href="#">Clients</a>
                 </li>
                 <li class="nav-item">
-                  <a id="navlinks" class="nav-link" href="#">Research &#38; Reports</a>
+                  <a class="nav-link navlinks" href="#">Research &#38; Reports</a>
                 </li>
               </ul>
             </nav>
           </div>
 
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <div class="form-group">
               <div class="float-right">
-                <input id="topNavigationSearchBar" type="text" class="form-control" value="Search">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-1">
-            <div class="form-group">
-              <div class="float-right">
-                <button id="topNavigationSearchBtn" type="button" class="btn btn-primary fa fa-search center-block"></button>
+                <nav class="navbar navbar-expand-sm topNavigation">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link navlinks" href="#"><input type="text" class="form-control topNavigationSearchBar" value="Search"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link navlinks" href="#"><button type="button" class="btn btn-primary fa fa-search center-block topNavigationSearchBtn"></button></a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>
@@ -62,9 +65,11 @@
       </div>
     </div>
 
-    <div class="container" id="articleSection">
+<!-- Main article section-->
+    <div class="articleSectionBox">
+      <div class="container articleSection">
       <div class="row">
-        <div class="col-sm-6" id="bannerSection">
+        <div class="col-sm-6 bannerSection">
           <image class="bannerImage" src="images/banner.jpg">
           <p class="bannerText">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisUt enim ad minim veniam, quis nostrud exercitation ullamco laborisUt enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -92,10 +97,15 @@
           <p class="articleContent">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           <p class="articleAuthor">By <span class="authorName">Amol</span> on 21 July 2012</p>
           <hr>
-          <span id="viewMore"><a href="#">View more</a></span>
+          <span class="viewMore"><a href="#">View more</a></span>
         </div>
       </div>
+      </div>
+    </div>
 
+<!-- Sector section-->
+    <div class="sectorSectionBox">
+    <div class="container sectorSection">
       <div class="row">
         <div class="col-sm-12 ">
             <p class="sectorHeader">SECTORS WE WORK IN</p>
@@ -105,85 +115,64 @@
         <div class="col-sm-3">
           <div class="sectorCard">
             <p class="sectorSubHeader">Microfinance and Banking</p><br>
-            <div class="blankBlock">
-            </div>
+            <span class="align-baseline"><div class="blankBlock"></div></span>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="sectorCard">
             <p class="sectorSubHeader">E/M-Banking for Financial Inclusion</p><br>
-            <div class="blankBlock">
-            </div>
+            <span class="align-baseline"><div class="blankBlock"></div></span>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="sectorCard">
             <p class="sectorSubHeader">Private Sector Developement</p><br>
-            <div class="blankBlock">
-            </div>
+            <span class="align-baseline"><div class="blankBlock"></div></span>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="sectorCard">
             <p class="sectorSubHeader">Small and Medium Enterprise Financing</p>
-            <div class="blankBlock">
-            </div>
+            <span class="align-baseline"><div class="blankBlock"></div></span>
+
           </div>
         </div>
       </div>
     </div>
+    </div>
 
+<!-- Footer section-->
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <nav class="navbar navbar-expand-sm" id="footerNavFirst">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Service</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="col-sm-6">
-            <nav class="navbar navbar-expand-sm float-right" id="footerNavSecond">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Terms of use</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Privacy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Code of business conduct &#38; ethics</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Site map</a>
-                </li>
-              </ul>
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+              <div class="container-fluid">
+                <ul class="nav navbar-nav footerNavFirst">
+                  <li class="nav-item"><a class="nav-link Active footerActiveLinks" href="#">Home | </a></li>
+
+                  <li class="nav-item"><a class="nav-link" href="#">Service | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">About | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Blog | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contact | </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right footerNavSecond">
+                  <li class="nav-item"><a class="nav-link" href="#">Terms of use | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Privacy | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Code of business conduct &#38; ethics | </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Site Map | </a></li>
+                </ul>
+              </div>
             </nav>
           </div>
         </div>
 
-        <hr style="background-color: #7c7979">
+        <hr class="footerHr">
 
         <div class="row">
           <div class="col-sm-12">
-            <span>MicroSave &#169; 2012</span>
+            <span class="copyrightSection">MicroSave &#169; 2012</span>
           </div>
-
         </div>
       </div>
     </footer>

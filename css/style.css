@@ -8,16 +8,16 @@ body{
   vertical-align: middle;
   background-color: #3355aa;
   font-size: 15px;
-  height: 40px;
+  min-height: 40px;
 }
 
-#topNavigation{
+.topNavigation{
   vertical-align: middle;
   background-color: #3355aa;
-  height: 40px;
+  min-height: 40px;
 }
 
-#topNavigationSearchBar{
+.topNavigationSearchBar{
   vertical-align: middle;
   height: 30px;
   margin: 5px;
@@ -25,7 +25,7 @@ body{
   font-style: italic;
 }
 
-#topNavigationSearchBtn{
+.topNavigationSearchBtn{
   vertical-align: middle;
   background-color: #4266c8;
   height: 30px;
@@ -33,14 +33,23 @@ body{
   padding-top:2px;
 }
 
-#navlinks{
+.navlinks{
   font-style: italic;
   color: #fff;
 }
 
-#articleSection{
-  margin-top: 35px;
-  margin-bottom: 45px
+.articleSectionBox{
+ box-shadow: 0 5px 5px -5px #333;
+}
+
+.articleSection{
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+.sectorSectionBox{
+  padding-bottom: 75px;
+  background-color: #f4f5f7;
 }
 
 .headerSection{
@@ -50,11 +59,11 @@ body{
 }
 
 .headerLogo{
-  margin: 5px;
+  margin: 5px 0px 5px 0px;
 }
 
 .bannerImage{
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
   padding: 10px;
   width: 100%;
 }
@@ -63,19 +72,21 @@ body{
   text-align: center;
   font-style: italic;
   font-size: 15px;
+  padding: 0px 10px 0px 10px;
 }
 
-#bannerSection{
+.bannerSection{
   border: 1px solid #eaeaea;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
 }
 
 .articleHeading{
   font-size:16px;
   color: #3355aa;
   font-weight: bold;
+  margin-top: 20px;
 }
-
 
 .articleSeperator{
   height: 3px;
@@ -96,7 +107,7 @@ body{
   color: #000;
 }
 
-#viewMore{
+.viewMore{
   font-style: italic;
 }
 
@@ -113,28 +124,42 @@ body{
 }
 
 .sectorCard{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
  }
 
 .blankBlock{
   background-color:#C0C0C0;
   height:250px;
-  margin:5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
 
 footer{
   background-color: #363636;
   color: #fff;
-  margin-bottom: 35px;
+  padding-bottom: 35px;
   margin-top: 15px;
 }
 
-#footerNavFirst{
+.footerNavFirst{
   font-size: 16px;
-  color: #fff;
+  color: #7f7f82;
 }
 
 
-#footerNavSecond{
+.footerNavSecond{
   font-size: 13px;
+  color: #7f7f82;
+}
+
+.footerActiveLinks{
+  color: #fff;
+}
+
+.footerHr{
+  background-color: #7c7979;
 }
