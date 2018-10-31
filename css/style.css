@@ -18,6 +18,10 @@ body{
   color: #fff;
 }
 
+.topNavigationSection>.container{
+  padding: 0;
+}
+
 .topNavigationSearchBar{
   vertical-align: middle;
   height: 30px;
