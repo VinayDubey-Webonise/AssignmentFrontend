@@ -1,0 +1,250 @@
+body{
+  font-family: Georgia;
+  font-size: 13px;
+  color: #222222;
+}
+
+.topNavigationSection{
+  vertical-align: middle;
+  background-color: #3355aa;
+  font-size: 15px;
+  min-height: 40px;
+}
+
+.topNavigation{
+  vertical-align: middle;
+  background-color: #3355aa;
+  min-height: 40px;
+  color: #fff;
+}
+
+.topNavigationSection>.container{
+  padding: 0;
+}
+
+.topNavigationSearchBar{
+  vertical-align: middle;
+  height: 30px;
+  color: #3355aa;
+  font-style: italic;
+}
+
+.topNavigationSearchBtn{
+  vertical-align: middle;
+  background-color: #4266c8;
+  height: 30px;
+  padding-top:0px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.navSeperator{
+  border-left: 1px solid #2c447f;
+  padding-left: 10px;
+}
+
+.navSeperatorEnd{
+  border-right: 1px solid #2c447f;
+  padding-right: 10px;
+}
+
+.navSeperatorFooter{
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+
+.navlinks{
+  font-style: italic;
+  color: #fff;
+}
+
+.navlinks:hover{
+  color: #c6c9d1;
+}
+
+.articleSectionBox{
+  padding: 35px;
+  padding-bottom: 45px;
+}
+
+.sectorSectionBox{
+  padding-bottom: 75px;
+  background-color: #f4f5f7;
+  align-content: center;
+  border-top: 2px solid rgb(243, 243, 243);
+}
+
+.sectorSection{
+  padding: 0;
+}
+
+.headerSection{
+  vertical-align: middle;
+  color: #3355aa;
+  height: 80px;
+  padding: 0;
+}
+
+.headerLogo{
+  margin: 10px 0px 10px 0px;
+}
+
+.bannerImage{
+  width: 100%;
+}
+
+.bannerText{
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  padding: 10px 20px 0px 20px;
+}
+
+.bannerSection{
+  border: 2px solid #eaeaea;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.articleHeading{
+  font-size:16px;
+  color: #3355aa;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #eebd00;
+}
+
+.articleSeperator{
+  height: 3px;
+  background-color: #eebd00;
+}
+
+.articleContent{
+  font-style: italic;
+
+}
+
+.articleAuthor{
+  font-size: 10px;
+  color: #9e9e9e;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9d9c9d;
+}
+
+.authorName{
+  color: #000;
+}
+
+.viewMoreLink{
+  font-style: italic;
+  color: #3355aa;
+  font-size: 15px;
+}
+
+a.viewMoreLink:hover{
+ color: #3355aa;
+}
+
+ul.row{
+  padding: 0;
+  list-style-type: none;
+}
+
+.sectorHeader{
+  text-align: center;
+  font-size: 28px;
+  margin:25px 0px 25px 0px;
+  font-weight: bold;
+}
+
+.sectorSubHeader{
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  padding: 0 60px;
+}
+
+.sectorCard{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  height: 100%;
+ }
+
+.blankBlock{
+  background-color:#C0C0C0;
+  height:250px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+footer{
+  background-color: #363636;
+  color: #fff;
+  padding-bottom: 35px;
+  margin-top: 15px;
+}
+
+.footerNavFirst{
+  font-size: 16px;
+  color: #7f7f82;
+}
+
+
+.footerNavSecond{
+  font-size: 13px;
+  color: #7f7f82;
+  float: right;
+}
+
+.footerNavigation{
+  padding-left: 0;
+}
+
+.footerLinks{
+  border-bottom: 1px solid #7c7979;
+  padding: 0;
+}
+
+.footerLinksTwo .navbar{
+  float: right;
+  padding-right: 0;
+}
+
+.footerMain{
+  padding: 15px 0px 35px 0px;
+}
+
+ul.sectorUl li{
+  display: inline-block;
+}
+
+.copyrightSection{
+  padding:10px 0;
+  margin-left: -10px;
+}
+
+.footerLinksOne{
+  padding-left: 0px;
+}
+
+.footerLinksTwo{
+  padding-right: 0px;
+  float: right;
+}
+
+.cardLinks{
+  color: #3355aa;
+}
+
+a.cardLinks:hover{
+  color: #3355aa;
+
+}
+
+.searchSection{
+  padding-right: 0;
+}
